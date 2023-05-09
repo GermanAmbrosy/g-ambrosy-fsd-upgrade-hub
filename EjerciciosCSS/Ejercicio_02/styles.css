@@ -1,0 +1,119 @@
+.adjust{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 21px;
+    
+    font-family: Arial;
+}
+
+.display-flex{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 470px;
+    margin-right: 460px;
+    padding: 6px;
+
+    align-items: center;
+}
+
+.width{
+    max-width: 12%;
+}
+
+.align-center{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding-top: 30px;
+}
+
+.align-left{
+
+    align-items: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+ 
+}
+
+.padding{
+    padding: 10px;
+}
+
+.margin {
+    display: inline-flex;
+    margin-top:  30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.margin-left{
+    display:inline-block;
+    margin-left: 150px;
+}
+
+.align-items-left{
+    display:flex;
+    align-items: left;
+}
+
+.boxer{
+    background-color: white;
+    border-bottom: 1px black;
+
+}
+
+.align-right{
+    display: flex;
+    align-items: right;
+}
+.margin-left-extreme{
+    margin-left: 1000px;
+}
+
+.bar-menu{
+    display: inline;
+    padding: 1px;
+}
+
+.boxer-two{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: white;
+    background-color: black;
+    border-bottom: 1px white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box{
+    
+    color: black;
+    background-color: white;
+    
+    /* EN ESTE ORDEN!! */
+    /* margin-left: 73px */
+    /* border-left: 1px solid green*/
+    /* top bottom left right */
+}
+
