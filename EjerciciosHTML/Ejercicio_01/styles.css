@@ -1,0 +1,72 @@
+
+.justify-content-center{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+    max-width: 50%; /* Opcional: ajusta el ancho máximo de la imagen según tus necesidades */
+    max-height: 50%;
+    /* center flex-end flex-start(default) space-between space-betweed space-around */
+}
+
+.box{
+    
+    
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width:  400px;
+    background-color: white;
+    border: 5px solid green;
+}
+
+.div-img{
+    max-width: 50%; /* Opcional: ajusta el ancho máximo de la imagen según tus necesidades */
+    max-height: 50%;
+}
+
+
+
+.button-background{
+    color: white;
+    background-color: teal;
+    border: 10px solid black;
+    margin: 1% 1% 1% 1%;
+    
+    padding: 1% 1% 1% 1%;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.align-items-center{
+    align-items: center;
+    /* flex-end */
+
+}
+
+.align-items-left{
+    align-items: left;
+    /* flex-end */
+
+}
+
+.element-style-flex-grow{
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+    
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-row-reverse{
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    
+}

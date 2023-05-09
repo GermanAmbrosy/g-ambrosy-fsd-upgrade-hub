@@ -29,11 +29,12 @@ a{
     font-weight: bold;
 }
 
-@font-face{
+/*@font-face{
     font-family: "mi  fuente";
-    src: url(RUTA DEL ARCHIVO);
+    src: url();
     font-weight: 900;
 }
+*/
 
 .b-paragraph{
     line-height: 5.3;
@@ -110,7 +111,7 @@ element.style{
     /* flex-end */
 
 }
-.flex-row-reverse{
+.flex-row{
     flex-direction: column;
     /* flex-direction: column-reverse; */
     
@@ -119,13 +120,13 @@ element.style{
 .flex-wrap{
     flex-wrap: wrap;
 }
-.width{
-    calc(25%-2%)
-    /* la resta es del porcentaje de los margenes */
-}
+/* .width{
+    
+    /* la resta es del porcentaje de los margenes
+} */
 
 .element-style-flex-grow{
     flex-grow: 1;
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
     
 }
