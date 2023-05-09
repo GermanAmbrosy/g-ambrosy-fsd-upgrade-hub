@@ -1,6 +1,7 @@
 
 
 
+
 header, p{
     color: green;
 }
@@ -54,12 +55,12 @@ a{
     /* top bottom left right */
 }
 
-.element-style{
-    /* display: block; */
+element.style{
+    display: block;
     /* no acepta width ni heigth */
-    /* display: inline; */
+    display: inline;
     display: inline-block;
-    /* display: none; */
+    display: none;
      /* lo oculta */
 
     
@@ -128,4 +129,3 @@ a{
     flex-shrink: 1;
     
 }
-
