@@ -1,0 +1,54 @@
+
+
+
+header, p{
+    color: green;
+}
+
+.text{
+    color: teal;
+}
+
+#unico{
+    color: yellowgreen;
+}
+
+a{
+    color:aquamarine;
+    text-decoration: none;
+}
+
+.title-red{
+    color: red;
+}
+
+.nice-font{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: "mi  fuente";
+    src: url(RUTA DEL ARCHIVO);
+    font-weight: 900;
+}
+
+.b-paragraph{
+    line-height: 5.3;
+    /* interlineado para los parrafitos */
+}
+
+.box{
+    color: green;
+    background-color: red;
+    margin: 1% 2% 3% 4%;
+    border: 5px solid green;
+    padding: 1% 2% 3% 4%;
+    font-weight: bold;
+    font-family: Arial;
+    /* EN ESTE ORDEN!! */
+    /* margin-left: 73px */
+    /* border-left: 1px solid green*/
+    /* top bottom left right */
+}
