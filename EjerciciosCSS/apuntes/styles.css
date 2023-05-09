@@ -28,11 +28,11 @@ a{
     font-weight: bold;
 }
 
-@font-face{
+/* @font-face{
     font-family: "mi  fuente";
     src: url(RUTA DEL ARCHIVO);
     font-weight: 900;
-}
+} */
 
 .b-paragraph{
     line-height: 5.3;
@@ -118,10 +118,10 @@ a{
 .flex-wrap{
     flex-wrap: wrap;
 }
-.width{
+/* .width{
     calc(25%-2%)
-    /* la resta es del porcentaje de los margenes */
-}
+    /* la resta es del porcentaje de los margenes
+} */
 
 .element-style-flex-grow{
     flex-grow: 1;
